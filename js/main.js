@@ -7,5 +7,8 @@ $(document).ready(function(){
         $('.sub').slideUp(400)
     })
 
- 
+    $('.f-site a').click(function(e){
+        e.preventDefault();
+        $('.site ul').toggle()
+    })
 })
